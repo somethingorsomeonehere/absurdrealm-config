@@ -1,0 +1,1970 @@
+# proto-file: ItemList.proto
+# proto-message: er.ItemList
+
+item {
+  name: "????????"
+  description: "?????"
+  grouping: POCKET_NONE
+  image: "question_mark"
+  palette: "question_mark"
+}
+item {
+  id: ITEM_POTION
+  name: "Potion"
+  description: "Restores the HP of a Pok\303\251mon by 20 points."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 20
+  use_type: ITEM_USE_PARTY_MENU
+  image: "potion"
+  palette: "potion"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_ANTIDOTE
+  name: "Antidote"
+  description: "Heals a poisoned Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "antidote"
+  palette: "antidote"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_BURN_HEAL
+  name: "Burn Heal"
+  description: "Heals Pok\303\251mon of a burn."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "status_heal"
+  palette: "burn_heal"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_ICE_HEAL
+  name: "Ice Heal"
+  description: "Defrosts a frozen Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "status_heal"
+  palette: "ice_heal"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_AWAKENING
+  name: "Awakening"
+  description: "Awakens a sleeping Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "status_heal"
+  palette: "awakening"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_PARALYZE_HEAL
+  name: "Paralyze Heal"
+  description: "Heals a paralyzed Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "status_heal"
+  palette: "paralyze_heal"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_FULL_RESTORE
+  name: "Full Restore"
+  description: "Fully restores the HP and status of a Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 255
+  use_type: ITEM_USE_PARTY_MENU
+  image: "large_potion"
+  palette: "full_restore"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_MAX_POTION
+  name: "Max Potion"
+  description: "Fully restores the HP of a Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 255
+  use_type: ITEM_USE_PARTY_MENU
+  image: "large_potion"
+  palette: "max_potion"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_HYPER_POTION
+  name: "Hyper Potion"
+  description: "Restores the HP of a Pok\303\251mon by 200 points."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 200
+  use_type: ITEM_USE_PARTY_MENU
+  image: "potion"
+  palette: "hyper_potion"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_SUPER_POTION
+  name: "Super Potion"
+  description: "Restores the HP of a Pok\303\251mon by 60 points."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 60
+  use_type: ITEM_USE_PARTY_MENU
+  image: "potion"
+  palette: "super_potion"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_FULL_HEAL
+  name: "Full Heal"
+  description: "Heals all the status problems of one Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "full_heal"
+  palette: "full_heal"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_REVIVE
+  name: "Revive"
+  description: "Revives a fainted Pok\303\251mon with half its HP."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "revive"
+  palette: "revive"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_MAX_REVIVE
+  name: "Max Revive"
+  description: "Revives a fainted Pok\303\251mon with all its HP."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "max_revive"
+  palette: "revive"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_FRESH_WATER
+  name: "Fresh Water"
+  description: "A mineral water that restores HP by 50 points."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 50
+  use_type: ITEM_USE_PARTY_MENU
+  image: "fresh_water"
+  palette: "fresh_water"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_SODA_POP
+  name: "Soda Pop"
+  description: "A fizzy soda drink that restores HP by 60 points."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 60
+  use_type: ITEM_USE_PARTY_MENU
+  image: "soda_pop"
+  palette: "soda_pop"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_LEMONADE
+  name: "Lemonade"
+  description: "A very sweet drink that restores HP by 80 points."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 80
+  use_type: ITEM_USE_PARTY_MENU
+  image: "lemonade"
+  palette: "lemonade"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_MOOMOO_MILK
+  name: "Moomoo Milk"
+  description: "A nutritious milk that restores HP by 100 points."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 100
+  use_type: ITEM_USE_PARTY_MENU
+  image: "moomoo_milk"
+  palette: "moomoo_milk"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_ENERGY_POWDER
+  name: "Energy Powder"
+  description: "A bitter powder that restores HP by 60 points."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "powder"
+  palette: "energy_powder"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_ENERGY_ROOT
+  name: "Energy Root"
+  description: "A bitter root that restores HP by 200 points."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "energy_root"
+  palette: "energy_root"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_HEAL_POWDER
+  name: "Heal Powder"
+  description: "A bitter powder that heals all status problems."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "powder"
+  palette: "heal_powder"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_REVIVAL_HERB
+  name: "Revival Herb"
+  description: "A very bitter herb that revives a fainted Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "revival_herb"
+  palette: "revival_herb"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_ETHER
+  name: "Ether"
+  description: "Restores the PP of a selected move by 10."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 10
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ether"
+  palette: "ether"
+  field_use_func: "PPRecovery"
+  battle_use_func: "PPRecovery"
+}
+item {
+  id: ITEM_MAX_ETHER
+  name: "Max Ether"
+  description: "Fully restores the PP of a selected move."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 255
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ether"
+  palette: "max_ether"
+  field_use_func: "PPRecovery"
+  battle_use_func: "PPRecovery"
+}
+item {
+  id: ITEM_ELIXIR
+  name: "Elixir"
+  description: "Restores the PP of all moves by 10."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 10
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ether"
+  palette: "elixir"
+  field_use_func: "PPRecovery"
+  battle_use_func: "PPRecovery"
+}
+item {
+  id: ITEM_MAX_ELIXIR
+  name: "Max Elixir"
+  description: "Fully restores the PP of a Pok\303\251mon\'s moves."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 255
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ether"
+  palette: "max_elixir"
+  field_use_func: "PPRecovery"
+  battle_use_func: "PPRecovery"
+}
+item {
+  id: ITEM_LAVA_COOKIE
+  name: "Lava Cookie"
+  description: "A local specialty that heals all status problems."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "lava_cookie"
+  palette: "lava_cookie_and_letter"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_SWEET_HEART
+  name: "Sweet Heart"
+  description: "A sweet chocolate that restores HP by 20 points."
+  grouping: POCKET_MEDICINE
+  hold_effect_strength: 20
+  use_type: ITEM_USE_PARTY_MENU
+  image: "sweet_heart"
+  palette: "sweet_heart"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_BIG_MALASADA
+  name: "Big Malasada"
+  description: "Heals all the status problems of one Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "big_malasada"
+  palette: "big_malasada"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_OLD_GATEAU
+  name: "Old Gateau"
+  description: "Heals all the status problems of one Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "old_gateau"
+  palette: "old_gateau"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_SACRED_ASH
+  name: "Sacred Ash"
+  description: "Fully revives and restores all fainted Pok\303\251mon."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "sacred_ash"
+  palette: "sacred_ash"
+  field_use_func: "SacredAsh"
+}
+item {
+  id: ITEM_HP_UP
+  name: "HP Up"
+  description: "Raises the HP IV of one Pok\303\251mon by 8."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "hp_up"
+  palette: "hp_up"
+  field_use_func: "Medicine"
+}
+item {
+  id: ITEM_PROTEIN
+  name: "Protein"
+  description: "Raises the Attack IV of one Pok\303\251mon by 8."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "vitamin"
+  palette: "protein"
+  field_use_func: "Medicine"
+}
+item {
+  id: ITEM_IRON
+  name: "Iron"
+  description: "Raises the Defense IV of one Pok\303\251mon by 8."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "vitamin"
+  palette: "iron"
+  field_use_func: "Medicine"
+}
+item {
+  id: ITEM_CARBOS
+  name: "Carbos"
+  description: "Raises the Speed IV of one Pok\303\251mon by 8."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "vitamin"
+  palette: "carbos"
+  field_use_func: "Medicine"
+}
+item {
+  id: ITEM_CALCIUM
+  name: "Calcium"
+  description: "Raises the Sp. Atk IV of one Pok\303\251mon by 8."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "vitamin"
+  palette: "calcium"
+  field_use_func: "Medicine"
+}
+item {
+  id: ITEM_RARE_CANDY
+  name: "Rare Candy"
+  description: "Raises the level of a Pok\303\251mon by one."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "rare_candy"
+  palette: "rare_candy"
+  field_use_func: "RareCandy"
+}
+item {
+  id: ITEM_PP_UP
+  name: "PP Up"
+  description: "Raises the maximum PP of a selected move."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "pp_up"
+  palette: "pp_up"
+  field_use_func: "PPUp"
+}
+item {
+  id: ITEM_ZINC
+  name: "Zinc"
+  description: "Raises the Sp. Def IV of one Pok\303\251mon by 8."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "vitamin"
+  palette: "zinc"
+  field_use_func: "Medicine"
+}
+item {
+  id: ITEM_PP_MAX
+  name: "PP Max"
+  description: "Raises the PP of a move to its maximum points."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "pp_max"
+  palette: "pp_max"
+  field_use_func: "PPUp"
+}
+item {
+  id: ITEM_ABILITY_CAPSULE
+  name: "Ability Pill"
+  description: "Switches a Pok\303\251- mon\'s ability."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ability_capsule"
+  palette: "ability_capsule"
+  field_use_func: "AbilityCapsule"
+}
+item {
+  id: ITEM_ABILITY_PATCH
+  name: "AbilityPatch"
+  description: "Switches a Pok\303\251- mon\'s ability to its hidden ability."
+  grouping: POCKET_MEDICINE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ability_patch"
+  palette: "ability_patch"
+  field_use_func: "AbilityCapsule"
+}
+item {
+  id: ITEM_SUN_STONE
+  name: "Sun Stone"
+  description: "Makes certain species of Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "sun_stone"
+  palette: "sun_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_MOON_STONE
+  name: "Moon Stone"
+  description: "Makes certain species of Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "moon_stone"
+  palette: "moon_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_FIRE_STONE
+  name: "Fire Stone"
+  description: "Makes certain species of Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "fire_stone"
+  palette: "fire_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_THUNDER_STONE
+  name: "Thunder Stone"
+  description: "Makes certain species of Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "thunder_stone"
+  palette: "thunder_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_WATER_STONE
+  name: "Water Stone"
+  description: "Makes certain species of Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "water_stone"
+  palette: "water_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_LEAF_STONE
+  name: "Leaf Stone"
+  description: "Makes certain species of Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "leaf_stone"
+  palette: "leaf_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_DAWN_STONE
+  name: "Dawn Stone"
+  description: "Makes certain species of Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "dawn_stone"
+  palette: "dawn_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_DUSK_STONE
+  name: "Dusk Stone"
+  description: "Makes certain species of Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "dusk_stone"
+  palette: "dusk_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_SHINY_STONE
+  name: "Shiny Stone"
+  description: "Makes certain species of Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "shiny_stone"
+  palette: "shiny_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_ICE_STONE
+  name: "Ice Stone"
+  description: "Makes certain species of Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ice_stone"
+  palette: "ice_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_RED_NECTAR
+  name: "Red Nectar"
+  description: "Flower nectar that changes the form of certain Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "red_nectar"
+  palette: "red_nectar"
+  field_use_func: "Nectar"
+}
+item {
+  id: ITEM_YELLOW_NECTAR
+  name: "Yellow Nectar"
+  description: "Flower nectar that changes the form of certain Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  hold_effect_strength: 1
+  use_type: ITEM_USE_PARTY_MENU
+  image: "yellow_nectar"
+  palette: "yellow_nectar"
+  field_use_func: "Nectar"
+}
+item {
+  id: ITEM_PINK_NECTAR
+  name: "Pink Nectar"
+  description: "Flower nectar that changes the form of certain Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  hold_effect_strength: 2
+  use_type: ITEM_USE_PARTY_MENU
+  image: "pink_nectar"
+  palette: "pink_nectar"
+  field_use_func: "Nectar"
+}
+item {
+  id: ITEM_PURPLE_NECTAR
+  name: "Purple Nectar"
+  description: "Flower nectar that changes the form of certain Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  hold_effect_strength: 3
+  use_type: ITEM_USE_PARTY_MENU
+  image: "purple_nectar"
+  palette: "purple_nectar"
+  field_use_func: "Nectar"
+}
+item {
+  id: ITEM_SWEET_APPLE
+  name: "Sweet Apple"
+  description: "A peculiar apple that makes certain Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "sweet_apple"
+  palette: "sweet_apple"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_TART_APPLE
+  name: "Tart Apple"
+  description: "A peculiar apple that makes certain Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "tart_apple"
+  palette: "tart_apple"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_CRACKED_POT
+  name: "Cracked Pot"
+  description: "A peculiar pot that makes certain Pok\303\251mon evolve."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "cracked_pot"
+  palette: "cracked_pot"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_GALARICA_CUFF
+  name: "Galarica Cuff"
+  description: "A cuff made from Galarica twigs. Loved by Slowpoke."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "galarica_cuff"
+  palette: "galarica_cuff"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_GALARICA_WREATH
+  name: "Galarica Wreath"
+  description: "A wreath made from Galarica twigs. Loved by Slowpoke."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "galarica_wreath"
+  palette: "galarica_wreath"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_STRAWBERRY_SWEET
+  name: "Strawberry Sweet"
+  description: "A strawberry-shaped sweet that is loved by Milcery."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "strawberry_sweet"
+  palette: "strawberry_sweet"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_LOVE_SWEET
+  name: "Love Sweet"
+  description: "A heart-shaped sweet that is loved by Milcery."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "love_sweet"
+  palette: "love_sweet"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_BERRY_SWEET
+  name: "Berry Sweet"
+  description: "A berry-shaped sweet that is loved by Milcery."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "berry_sweet"
+  palette: "berry_sweet"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_CLOVER_SWEET
+  name: "CLover Sweet"
+  description: "A clover-shaped sweet that is loved by Milcery."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "clover_sweet"
+  palette: "clover_sweet"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_FLOWER_SWEET
+  name: "Flower Sweet"
+  description: "A flower-shaped sweet that is loved by Milcery."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "flower_sweet"
+  palette: "flower_sweet"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_STAR_SWEET
+  name: "Star Sweet"
+  description: "A star-shaped sweet that is loved by Milcery."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "star_sweet"
+  palette: "star_sweet"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_RIBBON_SWEET
+  name: "Ribbon Sweet"
+  description: "A ribbon-shaped sweet that is loved by Milcery."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ribbon_sweet"
+  palette: "ribbon_sweet"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_BLUE_FLUTE
+  name: "Blue Flute"
+  description: "A glass flute that awakens sleeping Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "flute"
+  palette: "blue_flute"
+  field_use_func: "Medicine"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_YELLOW_FLUTE
+  name: "Yellow Flute"
+  description: "A glass flute that snaps Pok\303\251mon out of confusion."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "flute"
+  palette: "yellow_flute"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_RED_FLUTE
+  name: "Red Flute"
+  description: "A glass flute that snaps Pok\303\251mon out of attraction."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "flute"
+  palette: "red_flute"
+  battle_use_func: "Medicine"
+}
+item {
+  id: ITEM_BLACK_FLUTE
+  name: "Black Flute"
+  description: "A glass flute that keeps away wild Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  hold_effect_strength: 50
+  use_type: ITEM_USE_PARTY_MENU
+  image: "flute"
+  palette: "black_flute"
+  field_use_func: "BlackWhiteFlute"
+}
+item {
+  id: ITEM_WHITE_FLUTE
+  name: "White Flute"
+  description: "A glass flute that lures wild Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  hold_effect_strength: 150
+  use_type: ITEM_USE_PARTY_MENU
+  image: "flute"
+  palette: "white_flute"
+  field_use_func: "BlackWhiteFlute"
+}
+item {
+  id: ITEM_SHOAL_SALT
+  name: "Shoal Salt"
+  description: "Salt obtained from deep inside the Shoal Cave."
+  grouping: POCKET_ITEMS
+  image: "powder"
+  palette: "shoal_salt"
+}
+item {
+  id: ITEM_SHOAL_SHELL
+  name: "Shoal Shell"
+  description: "A seashell found deep inside the Shoal Cave."
+  grouping: POCKET_ITEMS
+  image: "shoal_shell"
+  palette: "shell"
+}
+item {
+  id: ITEM_RED_SHARD
+  name: "Red Shard"
+  description: "A shard from an ancient item. Can be sold cheaply."
+  grouping: POCKET_ITEMS
+  image: "shard"
+  palette: "red_shard"
+}
+item {
+  id: ITEM_BLUE_SHARD
+  name: "Blue Shard"
+  description: "A shard from an ancient item. Can be sold cheaply."
+  grouping: POCKET_ITEMS
+  image: "shard"
+  palette: "blue_shard"
+}
+item {
+  id: ITEM_YELLOW_SHARD
+  name: "Yellow Shard"
+  description: "A shard from an ancient item. Can be sold cheaply."
+  grouping: POCKET_ITEMS
+  image: "shard"
+  palette: "yellow_shard"
+}
+item {
+  id: ITEM_GREEN_SHARD
+  name: "Green Shard"
+  description: "A shard from an ancient item. Can be sold cheaply."
+  grouping: POCKET_ITEMS
+  image: "shard"
+  palette: "green_shard"
+}
+item {
+  id: ITEM_REPEL
+  name: "Repel"
+  description: "Repels weak wild Pok\303\251mon for 100 steps."
+  grouping: POCKET_ITEMS
+  hold_effect_strength: 100
+  image: "repel"
+  palette: "repel"
+  field_use_func: "Repel"
+}
+item {
+  id: ITEM_SUPER_REPEL
+  name: "Super Repel"
+  description: "Repels weak wild Pok\303\251mon for 200 steps."
+  grouping: POCKET_ITEMS
+  hold_effect_strength: 200
+  image: "repel"
+  palette: "super_repel"
+  field_use_func: "Repel"
+}
+item {
+  id: ITEM_MAX_REPEL
+  name: "Max Repel"
+  description: "Repels weak wild Pok\303\251mon for 250 steps."
+  grouping: POCKET_ITEMS
+  hold_effect_strength: 250
+  image: "repel"
+  palette: "max_repel"
+  field_use_func: "Repel"
+}
+item {
+  id: ITEM_TINY_MUSHROOM
+  name: "Tiny Mushroom"
+  description: "A plain mushroom that would sell at a cheap price."
+  grouping: POCKET_ITEMS
+  image: "tiny_mushroom"
+  palette: "mushroom"
+}
+item {
+  id: ITEM_BIG_MUSHROOM
+  name: "Big Mushroom"
+  description: "A rare mushroom that would sell at a high price."
+  grouping: POCKET_ITEMS
+  image: "big_mushroom"
+  palette: "mushroom"
+}
+item {
+  id: ITEM_BALM_MUSHROOM
+  name: "Balm Mushroom"
+  description: "A rare mushroom that would sell at a very high price."
+  grouping: POCKET_ITEMS
+  image: "balm_mushroom"
+  palette: "balm_mushroom"
+}
+item {
+  id: ITEM_PEARL
+  name: "Pearl"
+  description: "A pretty pearl that would sell at a cheap price."
+  grouping: POCKET_ITEMS
+  image: "pearl"
+  palette: "pearl"
+}
+item {
+  id: ITEM_BIG_PEARL
+  name: "Big Pearl"
+  description: "A lovely large pearl that would sell at a high price."
+  grouping: POCKET_ITEMS
+  image: "big_pearl"
+  palette: "pearl"
+}
+item {
+  id: ITEM_PEARL_STRING
+  name: "Pearl String"
+  description: "Very large pearls that would sell at a very high price."
+  grouping: POCKET_ITEMS
+  image: "pearl_string"
+  palette: "pearl_string"
+}
+item {
+  id: ITEM_STARDUST
+  name: "Stardust"
+  description: "Beautiful red sand. Can be sold at a high price."
+  grouping: POCKET_ITEMS
+  image: "stardust"
+  palette: "star"
+}
+item {
+  id: ITEM_STAR_PIECE
+  name: "Star Piece"
+  description: "A red gem shard. It would sell for a very high price."
+  grouping: POCKET_ITEMS
+  image: "star_piece"
+  palette: "star"
+}
+item {
+  id: ITEM_COMET_SHARD
+  name: "Comet Shard"
+  description: "A previous shard that fell as a comet passed."
+  grouping: POCKET_ITEMS
+  image: "comet_shard"
+  palette: "comet_shard"
+}
+item {
+  id: ITEM_NUGGET
+  name: "Nugget"
+  description: "A nugget of pure gold. Can be sold at a high price."
+  grouping: POCKET_ITEMS
+  image: "nugget"
+  palette: "nugget"
+}
+item {
+  id: ITEM_BIG_NUGGET
+  name: "Big Nugget"
+  description: "A big nugget of pure gold. It's very expensive."
+  grouping: POCKET_ITEMS
+  image: "big_nugget"
+  palette: "big_nugget"
+}
+item {
+  id: ITEM_RELIC_COPPER
+  name: "Relic Copper"
+  description: "A copper coin used by an ancient civilisation."
+  grouping: POCKET_ITEMS
+  image: "relic_copper"
+  palette: "relic_copper"
+}
+item {
+  id: ITEM_RELIC_SILVER
+  name: "Relic Silver"
+  description: "A silver coin used by an ancient civilisation."
+  grouping: POCKET_ITEMS
+  image: "relic_silver"
+  palette: "relic_silver"
+}
+item {
+  id: ITEM_RELIC_GOLD
+  name: "Relic Gold"
+  description: "A gold coin used by an ancient civilisation."
+  grouping: POCKET_ITEMS
+  image: "relic_gold"
+  palette: "relic_gold"
+}
+item {
+  id: ITEM_RELIC_VASE
+  name: "Relic Vase"
+  description: "A fragile vase made by an ancient civilisation."
+  grouping: POCKET_ITEMS
+  image: "relic_vase"
+  palette: "relic_vase"
+}
+item {
+  id: ITEM_RELIC_STATUE
+  name: "Relic Statue"
+  description: "A stone figure made by an ancient civilisation."
+  grouping: POCKET_ITEMS
+  image: "relic_statue"
+  palette: "relic_statue"
+}
+item {
+  id: ITEM_RELIC_BAND
+  name: "Relic Band"
+  description: "A heavy bracelet made by an ancient civilisation."
+  grouping: POCKET_ITEMS
+  image: "relic_band"
+  palette: "relic_band"
+}
+item {
+  id: ITEM_HEART_SCALE
+  name: "Heart Scale"
+  description: "A lovely scale. It is coveted by collectors."
+  grouping: POCKET_ITEMS
+  image: "heart_scale"
+  palette: "heart_scale"
+}
+item {
+  id: ITEM_BOTTLE_CAP
+  name: "Bottle Cap"
+  description: "A gleaming silver bottle cap. Coveted by collectors."
+  grouping: POCKET_ITEMS
+  image: "bottle_cap"
+  palette: "bottle_cap"
+}
+item {
+  id: ITEM_GOLD_BOTTLE_CAP
+  name: "GldBottleCap"
+  description: "A gleaming golden bottle cap. Coveted by collectors."
+  grouping: POCKET_ITEMS
+  image: "gold_bottle_cap"
+  palette: "gold_bottle_cap"
+}
+item {
+  id: ITEM_RARE_BONE
+  name: "Rare Bone"
+  description: "A very rare bone. It can be sold at a high price."
+  grouping: POCKET_ITEMS
+  image: "rare_bone"
+  palette: "rare_bone"
+}
+item {
+  id: ITEM_OVAL_STONE
+  name: "Oval Stone"
+  description: "Makes a certain Pok\303\251mon evolve. Looks like an egg."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "oval_stone"
+  palette: "oval_stone"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_PROTECTOR
+  name: "Protector"
+  description: "Loved by a certain Pok\303\251mon. It\'s stiff and heavy."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "protector"
+  palette: "protector"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_ELECTIRIZER
+  name: "Electirizer"
+  description: "Loved by a certain Pok\303\251mon. It\'s full of electric energy."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "electirizer"
+  palette: "electirizer"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_MAGMARIZER
+  name: "Magmarizer"
+  description: "Loved by a certain Pok\303\251mon. It\'s full of magma energy."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "magmarizer"
+  palette: "magmarizer"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_DUBIOUS_DISC
+  name: "Dubious Disc"
+  description: "A transparent device overflowing with dubious data."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "dubious_disc"
+  palette: "dubious_disc"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_REAPER_CLOTH
+  name: "Reaper Cloth"
+  description: "A cloth imbued with spiritual energy."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "reaper_cloth"
+  palette: "reaper_cloth"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_PRISM_SCALE
+  name: "Prism Scale"
+  description: "A shiny scale that evolves certain Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "prism_scale"
+  palette: "prism_scale"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_WHIPPED_DREAM
+  name: "Whipped Dream"
+  description: "A soft and sweet treat loved by a certain Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "whipped_dream"
+  palette: "whipped_dream"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_SACHET
+  name: "Sachet"
+  description: "A sachet filled with perfumes loved by a certain Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "sachet"
+  palette: "sachet"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_UPGRADE
+  name: "Upgrade"
+  description: "A peculiar box made by Silph Co."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "up_grade"
+  palette: "up_grade"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_RED_SCARF
+  name: "Red Scarf"
+  description: "A hold item that raises Cool in Contests."
+  grouping: POCKET_ITEMS
+  image: "scarf"
+  palette: "red_scarf"
+}
+item {
+  id: ITEM_BLUE_SCARF
+  name: "Blue Scarf"
+  description: "A hold item that raises Beauty in Contests."
+  grouping: POCKET_ITEMS
+  image: "scarf"
+  palette: "blue_scarf"
+}
+item {
+  id: ITEM_PINK_SCARF
+  name: "Pink Scarf"
+  description: "A hold item that raises Cute in Contests."
+  grouping: POCKET_ITEMS
+  image: "scarf"
+  palette: "pink_scarf"
+}
+item {
+  id: ITEM_GREEN_SCARF
+  name: "Green Scarf"
+  description: "A hold item that raises Smart in Contests."
+  grouping: POCKET_ITEMS
+  image: "scarf"
+  palette: "green_scarf"
+}
+item {
+  id: ITEM_YELLOW_SCARF
+  name: "Yellow Scarf"
+  description: "A hold item that raises Tough in Contests."
+  grouping: POCKET_ITEMS
+  image: "scarf"
+  palette: "yellow_scarf"
+}
+item {
+  id: ITEM_GUARD_SPEC
+  name: "Guard Spec."
+  description: "Prevents stat reduction when used in battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "guard_spec"
+  battle_use_func: "StatIncrease"
+}
+item {
+  id: ITEM_DIRE_HIT
+  name: "Dire Hit"
+  description: "Raises the critical-hit ratio during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "dire_hit"
+  battle_use_func: "StatIncrease"
+}
+item {
+  id: ITEM_X_ATTACK
+  name: "X Attack"
+  description: "Raises the stat Attack during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "x_attack"
+  battle_use_func: "StatIncrease"
+}
+item {
+  id: ITEM_X_DEFENSE
+  name: "X Defense"
+  description: "Raises the stat Defense during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "x_defend"
+  battle_use_func: "StatIncrease"
+}
+item {
+  id: ITEM_X_SPEED
+  name: "X Speed"
+  description: "Raises the stat Speed during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "x_speed"
+  battle_use_func: "StatIncrease"
+}
+item {
+  id: ITEM_X_ACCURACY
+  name: "X Accuracy"
+  description: "Raises accuracy of attack moves during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "x_accuracy"
+  battle_use_func: "StatIncrease"
+}
+item {
+  id: ITEM_X_SP_ATK
+  name: "X Sp. Atk"
+  description: "Raises the stat Sp. Atk during one battle."
+  grouping: POCKET_BATTLE
+  image: "battle_stat_item"
+  palette: "x_special"
+  battle_use_func: "StatIncrease"
+}
+item {
+  id: ITEM_X_SP_DEF
+  name: "X Sp. Def"
+  description: "Raises the stat Sp. Def during one battle."
+  grouping: POCKET_BATTLE
+  image: "x_special_defense"
+  palette: "x_special_defense"
+  battle_use_func: "StatIncrease"
+}
+item {
+  id: ITEM_POKE_DOLL
+  name: "Pok\303\251 Doll"
+  description: "Use to flee from any battle with a wild Pok\303\251mon."
+  grouping: POCKET_BATTLE
+  image: "poke_doll"
+  palette: "poke_doll"
+  battle_use_func: "Escape"
+}
+item {
+  id: ITEM_FLUFFY_TAIL
+  name: "Fluffy Tail"
+  description: "Use to flee from any battle with a wild Pok\303\251mon."
+  grouping: POCKET_BATTLE
+  image: "fluffy_tail"
+  palette: "fluffy_tail"
+  battle_use_func: "Escape"
+}
+item {
+  id: ITEM_MACHO_BRACE
+  name: "Macho Brace"
+  description: "A hold item that promotes growth, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "macho_brace"
+  palette: "macho_brace"
+}
+item {
+  id: ITEM_EXP_SHARE
+  name: "Exp. Share"
+  description: "A hold item that gets Exp. points from battles."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "exp_share"
+  palette: "exp_share"
+}
+item {
+  id: ITEM_SOOTHE_BELL
+  name: "Soothe Bell"
+  description: "A hold item that calms spirits and fosters friendship."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "FRIENDSHIP_UP"
+  image: "soothe_bell"
+  palette: "soothe_bell"
+}
+item {
+  id: ITEM_AMULET_COIN
+  name: "Amulet Coin"
+  description: "sAmuletCoinDesc"
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 10
+  image: "amulet_coin"
+  palette: "amulet_coin"
+}
+item {
+  id: ITEM_CLEANSE_TAG
+  name: "Cleanse Tag"
+  description: "A hold item that helps repel wild Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_REPEL
+  image: "cleanse_tag"
+  palette: "cleanse_tag"
+}
+item {
+  id: ITEM_EVERSTONE
+  name: "Everstone"
+  description: "A wondrous hold item that prevents evolution."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "PREVENT_EVOLVE"
+  image: "everstone"
+  palette: "everstone"
+}
+item {
+  id: ITEM_FOCUS_BAND
+  name: "Focus Band"
+  description: "A hold item that occasionally prevents fainting."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 10
+  image: "focus_band"
+  palette: "focus_band"
+}
+item {
+  id: ITEM_LUCKY_EGG
+  name: "Lucky Egg"
+  description: "A hold item that boosts Exp. points earned in battle."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "lucky_egg"
+  palette: "lucky_egg"
+}
+item {
+  id: ITEM_DRAGON_SCALE
+  name: "Dragon Scale"
+  description: "A strange scale held by Dragon-type Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 10
+  use_type: ITEM_USE_PARTY_MENU
+  image: "dragon_scale"
+  palette: "dragon_scale"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_RAZOR_CLAW
+  name: "Razor Claw"
+  description: "A hooked claw that ups the holder\'s critical-hit ratio."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_SCOPE_LENS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "razor_claw"
+  palette: "razor_claw"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_RAZOR_FANG
+  name: "Razor Fang"
+  description: "A hold item that may cause flinching when the foe is hit."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_FLINCH
+  hold_effect_strength: 10
+  use_type: ITEM_USE_PARTY_MENU
+  image: "razor_fang"
+  palette: "razor_fang"
+  field_use_func: "EvolutionStone"
+}
+item {
+  id: ITEM_POWER_BRACER
+  name: "Power Bracer"
+  description: "Hold item. Allows only Attack gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_ATK"
+  image: "power_bracer"
+  palette: "power_bracer"
+}
+item {
+  id: ITEM_POWER_BELT
+  name: "Power Belt"
+  description: "Hold item. Allows only Defense gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_DEF"
+  image: "power_belt"
+  palette: "power_belt"
+}
+item {
+  id: ITEM_POWER_LENS
+  name: "Power Lens"
+  description: "Hold item. Allows only Sp. Atk gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_SPATK"
+  image: "power_lens"
+  palette: "power_lens"
+}
+item {
+  id: ITEM_POWER_BAND
+  name: "Power Band"
+  description: "Hold item. Allows only Sp. Def gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_SPDEF"
+  image: "power_band"
+  palette: "power_band"
+}
+item {
+  id: ITEM_POWER_ANKLET
+  name: "Power Anklet"
+  description: "Hold item. Allows only Speed gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_SPEED"
+  image: "power_anklet"
+  palette: "power_anklet"
+}
+item {
+  id: ITEM_POWER_WEIGHT
+  name: "Power Weight"
+  description: "Hold item. Allows only HP gain, but reduces Speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_POWER_ITEM
+  hold_effect_strength: 16
+  hold_effect_misc_param: "STAT_HP"
+  image: "power_weight"
+  palette: "power_weight"
+}
+item {
+  id: ITEM_ZOOM_LENS
+  name: "Zoom Lens"
+  description: "If the holder moves after the foe, it\'ll boost accuracy."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 20
+  image: "zoom_lens"
+  palette: "zoom_lens"
+}
+item {
+  id: ITEM_METRONOME
+  name: "Metronome"
+  description: "A held item that boosts a move used consecutively."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 20
+  image: "metronome"
+  palette: "metronome"
+}
+item {
+  id: ITEM_DESTINY_KNOT
+  name: "Destiny Knot"
+  description: "If the holder falls in love, the foe does too."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "destiny_knot"
+  palette: "destiny_knot"
+}
+item {
+  id: ITEM_GRIP_CLAW
+  name: "Grip Claw"
+  description: "Makes the holder's binding moves last 7 turns."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "grip_claw"
+  palette: "grip_claw"
+}
+item {
+  id: ITEM_STICKY_BARB
+  name: "Sticky Barb"
+  description: "Damages the holder each turn. May latch on to foes."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "sticky_barb"
+  palette: "sticky_barb"
+}
+item {
+  id: ITEM_FLOAT_STONE
+  name: "Float Stone"
+  description: "It\'s so light that when held, it halves a Pok\303\251mon\'s weight."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "float_stone"
+  palette: "float_stone"
+}
+item {
+  id: ITEM_RING_TARGET
+  name: "Ring Target"
+  description: "Moves that wouldn\'t have effect will land on its holder."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "ring_target"
+  palette: "ring_target"
+}
+item {
+  id: ITEM_ABSORB_BULB
+  name: "Absorb Bulb"
+  description: "Raises Sp. Atk if the holder is hit by a Water-type move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "absorb_bulb"
+  palette: "absorb_bulb"
+}
+item {
+  id: ITEM_CELL_BATTERY
+  name: "Cell Battery"
+  description: "Raises Atk if the holder is hit by an Electric-type move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "cell_battery"
+  palette: "cell_battery"
+}
+item {
+  id: ITEM_LUMINOUS_MOSS
+  name: "Luminous Moss"
+  description: "Raises Sp. Def if the holder is hit by a Water-type move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "luminous_moss"
+  palette: "luminous_moss"
+}
+item {
+  id: ITEM_SNOWBALL
+  name: "Snowball"
+  description: "Raises Atk if its holder is hit by an Ice-type move."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "snowball"
+  palette: "snowball"
+}
+item {
+  id: ITEM_ADRENALINE_ORB
+  name: "Adrenaline Orb"
+  description: "Boosts Speed if the user is intimidated, but only one time."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "adrenaline_orb"
+  palette: "adrenaline_orb"
+}
+item {
+  id: ITEM_BLUNDER_POLICY
+  name: "Blunder Policy"
+  description: "Sharply raises Speed if the holder misses."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "blunder_policy"
+  palette: "blunder_policy"
+}
+item {
+  id: ITEM_ROOM_SERVICE
+  name: "Room Service"
+  description: "Held item that lowers speed when Trick Room is used."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "room_service"
+  palette: "room_service"
+}
+item {
+  id: ITEM_UTILITY_UMBRELLA
+  name: "Utility Umbrella"
+  description: "Protects the from the effects of rain and harsh sun."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "utility_umbrella"
+  palette: "utility_umbrella"
+}
+item {
+  id: ITEM_QUICK_POWDER
+  name: "Quick Powder"
+  description: "An odd powder that boosts Ditto's speed."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "quick_powder"
+  palette: "quick_powder"
+}
+item {
+  id: ITEM_LAX_INCENSE
+  name: "Lax Incense"
+  description: "A hold item that slightly lowers the foe\'s accuracy."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_EVASION_UP
+  hold_effect_strength: 10
+  image: "lax_incense"
+  palette: "lax_incense"
+}
+item {
+  id: ITEM_FULL_INCENSE
+  name: "Full Incense"
+  description: "A held item that makes the holder move slower."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_LAGGING_TAIL
+  hold_effect_strength: 5
+  image: "full_incense"
+  palette: "full_incense"
+}
+item {
+  id: ITEM_LUCK_INCENSE
+  name: "Luck Incense"
+  description: "Doubles money in battle if the holder takes part."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_alias: "DOUBLE_PRIZE"
+  hold_effect_strength: 10
+  image: "luck_incense"
+  palette: "luck_incense"
+}
+item {
+  id: ITEM_PURE_INCENSE
+  name: "Pure Incense"
+  description: "A hold item that helps repel wild Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_REPEL
+  image: "pure_incense"
+  palette: "pure_incense"
+}
+item {
+  id: ITEM_TRAINING_BAND
+  name: "Training Band"
+  description: "Massively boosts Exp. gain for weaker Pok\303\251mon."
+  grouping: POCKET_BATTLE
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "focus_sash"
+  palette: "training_band"
+}
+item {
+  id: ITEM_FAB_MAIL
+  name: "Fab Mail"
+  description: "A gorgeous-print Mail to be held by a Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_MAIL
+  image: "fab_mail"
+  palette: "fab_mail"
+}
+item {
+  id: ITEM_RETRO_MAIL
+  name: "Retro Mail"
+  description: "Mail featuring the drawings of three Pok\303\251mon."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_MAIL
+  image: "retro_mail"
+  palette: "retro_mail"
+}
+item {
+  id: ITEM_NORMALIUM_Z
+  name: "Normalium Z"
+  description: "Upgrade Normal-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_NORMAL
+  image: "normalium_z"
+  palette: "normalium_z"
+}
+item {
+  id: ITEM_FIGHTINIUM_Z
+  name: "Fightinium Z"
+  description: "Upgrade Fighting-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_FIGHTING
+  image: "fightinium_z"
+  palette: "fightinium_z"
+}
+item {
+  id: ITEM_FLYINIUM_Z
+  name: "Flyinium Z"
+  description: "Upgrade Flying-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_FLYING
+  image: "flyinium_z"
+  palette: "flyinium_z"
+}
+item {
+  id: ITEM_POISONIUM_Z
+  name: "Poisinium Z"
+  description: "Upgrade Poison-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_POISON
+  image: "poisonium_z"
+  palette: "poisonium_z"
+}
+item {
+  id: ITEM_GROUNDIUM_Z
+  name: "Groundium Z"
+  description: "Upgrade Ground-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_GROUND
+  image: "groundium_z"
+  palette: "groundium_z"
+}
+item {
+  id: ITEM_ROCKIUM_Z
+  name: "Rockium Z"
+  description: "Upgrade Rock-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_ROCK
+  image: "rockium_z"
+  palette: "rockium_z"
+}
+item {
+  id: ITEM_BUGINIUM_Z
+  name: "Buginium Z"
+  description: "Upgrade Bug-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_BUG
+  image: "buginium_z"
+  palette: "buginium_z"
+}
+item {
+  id: ITEM_GHOSTIUM_Z
+  name: "Ghostium Z"
+  description: "Upgrade Ghost-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_GHOST
+  image: "ghostium_z"
+  palette: "ghostium_z"
+}
+item {
+  id: ITEM_STEELIUM_Z
+  name: "Steelium Z"
+  description: "Upgrade Steel-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_STEEL
+  image: "steelium_z"
+  palette: "steelium_z"
+}
+item {
+  id: ITEM_FIRIUM_Z
+  name: "Firium Z"
+  description: "Upgrade Fire-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_FIRE
+  image: "firium_z"
+  palette: "firium_z"
+}
+item {
+  id: ITEM_WATERIUM_Z
+  name: "Waterium Z"
+  description: "Upgrade Water-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_WATER
+  image: "waterium_z"
+  palette: "waterium_z"
+}
+item {
+  id: ITEM_GRASSIUM_Z
+  name: "Grassium Z"
+  description: "Upgrade Grass-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_GRASS
+  image: "grassium_z"
+  palette: "grassium_z"
+}
+item {
+  id: ITEM_ELECTRIUM_Z
+  name: "Electrium Z"
+  description: "Upgrade Electric-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_ELECTRIC
+  image: "electrium_z"
+  palette: "electrium_z"
+}
+item {
+  id: ITEM_PSYCHIUM_Z
+  name: "Psychium Z"
+  description: "Upgrade Psychic-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_PSYCHIC
+  image: "psychium_z"
+  palette: "psychium_z"
+}
+item {
+  id: ITEM_ICIUM_Z
+  name: "Icium Z"
+  description: "Upgrade Ice-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_ICE
+  image: "icium_z"
+  palette: "icium_z"
+}
+item {
+  id: ITEM_DRAGONIUM_Z
+  name: "Dragonium Z"
+  description: "Upgrade Dragon-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_DRAGON
+  image: "dragonium_z"
+  palette: "dragonium_z"
+}
+item {
+  id: ITEM_DARKINIUM_Z
+  name: "Darkinium Z"
+  description: "Upgrade Dark-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_DARK
+  image: "darkinium_z"
+  palette: "darkinium_z"
+}
+item {
+  id: ITEM_FAIRIUM_Z
+  name: "Fairium Z"
+  description: "Upgrade Fairy-type moves into Z-Moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  hold_effect_type: TYPE_FAIRY
+  image: "fairium_z"
+  palette: "fairium_z"
+}
+item {
+  id: ITEM_ALORAICHIUM_Z
+  name: "Aloraichium Z"
+  description: "Upgrade Alolan Raichu\'s Thunder-bolt into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "aloraichium_z"
+  palette: "aloraichium_z"
+}
+item {
+  id: ITEM_DECIDIUM_Z
+  name: "Decidium Z"
+  description: "Upgrade Decidu-eye\'s Spirit Sha-ckle into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "decidium_z"
+  palette: "decidium_z"
+}
+item {
+  id: ITEM_EEVIUM_Z
+  name: "Eevium Z"
+  description: "Upgrade Eevee\'s Last Resort into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "eevium_z"
+  palette: "eevium_z"
+}
+item {
+  id: ITEM_INCINIUM_Z
+  name: "Incinium Z"
+  description: "Upgrade Incine-roar\'s Darkest La-riat into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "incinium_z"
+  palette: "incinium_z"
+}
+item {
+  id: ITEM_KOMMONIUM_Z
+  name: "Kommonium Z"
+  description: "Upgrade Kommo-o\'s Clanging Scales into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "kommonium_z"
+  palette: "kommonium_z"
+}
+item {
+  id: ITEM_LUNALIUM_Z
+  name: "Lunalium Z"
+  description: "Upgrade Lunala\'s Moongeist Beam into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "lunalium_z"
+  palette: "lunalium_z"
+}
+item {
+  id: ITEM_LYCANIUM_Z
+  name: "Lycanium Z"
+  description: "Upgrade Lycanroc\'s Stone Edge into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "lycanium_z"
+  palette: "lycanium_z"
+}
+item {
+  id: ITEM_MARSHADIUM_Z
+  name: "Marshadium Z"
+  description: "Upgrade Marsha-dow\'s Spectral Thi-ef into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "marshadium_z"
+  palette: "marshadium_z"
+}
+item {
+  id: ITEM_MEWNIUM_Z
+  name: "Mewnium Z"
+  description: "Upgrade Mew\'s Psychic into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "mewnium_z"
+  palette: "mewnium_z"
+}
+item {
+  id: ITEM_MIMIKIUM_Z
+  name: "Mimikium Z"
+  description: "Upgrade Mimikyu\'s Play Rough into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "mimikium_z"
+  palette: "mimikium_z"
+}
+item {
+  id: ITEM_PIKANIUM_Z
+  name: "Pikanium Z"
+  description: "Upgrade Pikachu\'s Volt Tackle into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "pikanium_z"
+  palette: "pikanium_z"
+}
+item {
+  id: ITEM_PIKASHUNIUM_Z
+  name: "Pikashunium Z"
+  description: "Upgrade Pikachu w/ a cap\'s Thunderbolt into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "pikashunium_z"
+  palette: "pikashunium_z"
+}
+item {
+  id: ITEM_PRIMARIUM_Z
+  name: "Primarium Z"
+  description: "Upgrade Primarina\'s Sparkling Aria into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "primarium_z"
+  palette: "primarium_z"
+}
+item {
+  id: ITEM_SNORLIUM_Z
+  name: "Snorlium Z"
+  description: "Upgrade Snorlax\'s Giga Impact into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "snorlium_z"
+  palette: "snorlium_z"
+}
+item {
+  id: ITEM_SOLGANIUM_Z
+  name: "Solganium Z"
+  description: "Upgrade Solgaleo\'s Sunsteel Strike into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "solganium_z"
+  palette: "solganium_z"
+}
+item {
+  id: ITEM_TAPUNIUM_Z
+  name: "Tapunium Z"
+  description: "Upgrade the tapu\'s Nature\'s Madness into a Z-Move."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_Z_CRYSTAL
+  image: "tapunium_z"
+  palette: "tapunium_z"
+}

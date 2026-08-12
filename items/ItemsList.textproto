@@ -1,0 +1,363 @@
+# proto-file: ItemList.proto
+# proto-message: er.ItemList
+
+item {
+  id: ITEM_HONEY
+  name: "Honey"
+  description: "Attracts wild mons. Can be used by bees to restore HP."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 25
+  use_type: ITEM_USE_FIELD
+  image: "honey"
+  palette: "honey"
+  field_use_func: "Honey"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_IRON_PILL
+  name: "Iron Pill"
+  description: "Sets Speed IVs to 0. Use again to set back to 31."
+  grouping: POCKET_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "iron_pill"
+  palette: "iron_pill"
+  field_use_func: "IronPill"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_SOUL_DEW
+  name: "Soul Dew"
+  description: "Hold item: raises Sp. Atk & Sp. Def of Latios & Latias."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  hold_effect_strength: 50
+  image: "soul_dew"
+  palette: "soul_dew"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_DEEP_SEA_SCALE
+  name: "DeepSeaScale"
+  description: "A hold item that raises the Sp. Def of Clamperl."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "deep_sea_scale"
+  palette: "deep_sea_scale"
+  field_use_func: "EvolutionStone"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_DEEP_SEA_TOOTH
+  name: "DeepSeaTooth"
+  description: "A hold item that raises the Sp. Atk of Clamperl."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "deep_sea_tooth"
+  palette: "deep_sea_tooth"
+  field_use_func: "EvolutionStone"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_LIGHT_BALL
+  name: "Light Ball"
+  description: "A hold item that raises the power of Pikachu and Raichu."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "light_ball"
+  palette: "light_ball"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_LEEK
+  name: "Leek"
+  description: "A hold item that raises Farfetch\'d\'s critical-hit ratio."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "stick"
+  palette: "stick"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_LUCKY_PUNCH
+  name: "Lucky Punch"
+  description: "A hold item that raises Chansey\'s critical-hit rate."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "lucky_punch"
+  palette: "lucky_punch"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_THICK_CLUB
+  name: "Thick Club"
+  description: "A hold item that  raises Cubone or Marowak\'s Attack."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "thick_club"
+  palette: "thick_club"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_METAL_POWDER
+  name: "Metal Powder"
+  description: "A hold item that raises Ditto\'s Defense."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "metal_powder"
+  palette: "metal_powder"
+}
+item {
+  id: ITEM_NORMAL_GEM
+  name: "Normal Gem"
+  description: "Increases the power of Normal Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_NORMAL
+  use_type: ITEM_USE_PARTY_MENU
+  image: "normal_gem"
+  palette: "normal_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_FIGHTING_GEM
+  name: "Fighting Gem"
+  description: "Increases the power of Fighting Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_FIGHTING
+  use_type: ITEM_USE_PARTY_MENU
+  image: "fighting_gem"
+  palette: "fighting_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_FLYING_GEM
+  name: "Flying Gem"
+  description: "Increases the power of Flying Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_FLYING
+  use_type: ITEM_USE_PARTY_MENU
+  image: "flying_gem"
+  palette: "flying_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_POISON_GEM
+  name: "Poison Gem"
+  description: "Increases the power of Poison Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_POISON
+  use_type: ITEM_USE_PARTY_MENU
+  image: "poison_gem"
+  palette: "poison_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_GROUND_GEM
+  name: "Ground Gem"
+  description: "Increases the power of Ground Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_GROUND
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ground_gem"
+  palette: "ground_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_ROCK_GEM
+  name: "Rock Gem"
+  description: "Increases the power of Rock Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_ROCK
+  use_type: ITEM_USE_PARTY_MENU
+  image: "rock_gem"
+  palette: "rock_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_BUG_GEM
+  name: "Bug Gem"
+  description: "Increases the power of Bug Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_BUG
+  use_type: ITEM_USE_PARTY_MENU
+  image: "bug_gem"
+  palette: "bug_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_GHOST_GEM
+  name: "Ghost Gem"
+  description: "Increases the power of Ghost Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_GHOST
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ghost_gem"
+  palette: "ghost_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_STEEL_GEM
+  name: "Steel Gem"
+  description: "Increases the power of Steel Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_STEEL
+  use_type: ITEM_USE_PARTY_MENU
+  image: "steel_gem"
+  palette: "steel_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_FIRE_GEM
+  name: "Fire Gem"
+  description: "Increases the power of Fire Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_FIRE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "fire_gem"
+  palette: "fire_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_WATER_GEM
+  name: "Water Gem"
+  description: "Increases the power of Water Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_WATER
+  use_type: ITEM_USE_PARTY_MENU
+  image: "water_gem"
+  palette: "water_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_GRASS_GEM
+  name: "Grass Gem"
+  description: "Increases the power of Grass Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_GRASS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "grass_gem"
+  palette: "grass_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_ELECTRIC_GEM
+  name: "Electric Gem"
+  description: "Increases the power of Electric Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_ELECTRIC
+  use_type: ITEM_USE_PARTY_MENU
+  image: "electric_gem"
+  palette: "electric_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_PSYCHIC_GEM
+  name: "Psychic Gem"
+  description: "Increases the power of Psychic Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_PSYCHIC
+  use_type: ITEM_USE_PARTY_MENU
+  image: "psychic_gem"
+  palette: "psychic_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_ICE_GEM
+  name: "Ice Gem"
+  description: "Increases the power of Ice Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_ICE
+  use_type: ITEM_USE_PARTY_MENU
+  image: "ice_gem"
+  palette: "ice_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_DRAGON_GEM
+  name: "Dragon Gem"
+  description: "Increases the power of Dragon Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_DRAGON
+  use_type: ITEM_USE_PARTY_MENU
+  image: "dragon_gem"
+  palette: "dragon_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_DARK_GEM
+  name: "Dark Gem"
+  description: "Increases the power of Dark Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_DARK
+  use_type: ITEM_USE_PARTY_MENU
+  image: "dark_gem"
+  palette: "dark_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_FAIRY_GEM
+  name: "Fairy Gem"
+  description: "Increases the power of Fairy Type moves."
+  grouping: POCKET_ITEMS
+  hold_effect: HOLD_EFFECT_GEMS
+  hold_effect_strength: 50
+  hold_effect_type: TYPE_FAIRY
+  use_type: ITEM_USE_PARTY_MENU
+  image: "fairy_gem"
+  palette: "fairy_gem"
+  field_use_func: "TypeGems"
+  talk_to_nurse_joy: true
+}

@@ -1,0 +1,767 @@
+# proto-file: ItemList.proto
+# proto-message: er.ItemList
+
+item {
+  id: ITEM_ESCAPE_ROPE
+  name: "Escape Rope"
+  description: "Use to escape instantly from a cave or a dungeon."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_FIELD
+  image: "escape_rope"
+  palette: "escape_rope"
+  field_use_func: "EscapeRope"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_OLD_ROD
+  name: "Old Rod"
+  description: "Use by any body of water to fish for wild Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  hold_effect_misc_param: "OLD_ROD"
+  use_type: ITEM_USE_FIELD
+  image: "old_rod"
+  palette: "old_rod"
+  field_use_func: "Rod"
+}
+item {
+  id: ITEM_GOOD_ROD
+  name: "Good Rod"
+  description: "A decent fishing rod for catching wild Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  hold_effect_misc_param: "GOOD_ROD"
+  use_type: ITEM_USE_FIELD
+  image: "good_rod"
+  palette: "good_rod"
+  field_use_func: "Rod"
+}
+item {
+  id: ITEM_SUPER_ROD
+  name: "Super Rod"
+  description: "The best fishing rod for catching wild Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  hold_effect_misc_param: "SUPER_ROD"
+  use_type: ITEM_USE_FIELD
+  image: "super_rod"
+  palette: "super_rod"
+  field_use_func: "Rod"
+}
+item {
+  id: ITEM_MACH_BIKE
+  name: "Mach Bike"
+  description: "A folding bicycle that doubles your speed or better."
+  grouping: POCKET_KEY_ITEMS
+  hold_effect_misc_param: "MACH_BIKE"
+  use_type: ITEM_USE_FIELD
+  image: "mach_bike"
+  palette: "mach_bike"
+  field_use_func: "Bike"
+}
+item {
+  id: ITEM_ACRO_BIKE
+  name: "Acro Bike"
+  description: "A folding bicycle capable of jumps and wheelies."
+  grouping: POCKET_KEY_ITEMS
+  hold_effect_misc_param: "ACRO_BIKE"
+  use_type: ITEM_USE_FIELD
+  image: "acro_bike"
+  palette: "acro_bike"
+  field_use_func: "Bike"
+}
+item {
+  id: ITEM_INFINITE_REPEL
+  name: "Infinite Repel"
+  description: "Repels weak wild Pok\303\251mon until you turn it off."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "repel"
+  palette: "infinite_repel"
+  field_use_func: "InfiniteRepel"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_ARMOR_FOSSIL
+  name: "Armor Fossil"
+  description: "A piece of a prehistoric Pok\303\251- mon\'s head."
+  grouping: POCKET_KEY_ITEMS
+  image: "armor_fossil"
+  palette: "armor_fossil"
+}
+item {
+  id: ITEM_SKULL_FOSSIL
+  name: "Skull Fossil"
+  description: "A piece of a prehistoric Pok\303\251- mon\'s head."
+  grouping: POCKET_KEY_ITEMS
+  image: "skull_fossil"
+  palette: "skull_fossil"
+}
+item {
+  id: ITEM_HELIX_FOSSIL
+  name: "Helix Fossil"
+  description: "A piece of an ancient marine Pok\303\251mon\'s seashell."
+  grouping: POCKET_KEY_ITEMS
+  image: "helix_fossil"
+  palette: "kanto_fossil"
+}
+item {
+  id: ITEM_DOME_FOSSIL
+  name: "Dome Fossil"
+  description: "A piece of an ancient marine Pok\303\251mon\'s shell."
+  grouping: POCKET_KEY_ITEMS
+  image: "dome_fossil"
+  palette: "kanto_fossil"
+}
+item {
+  id: ITEM_COVER_FOSSIL
+  name: "Cover Fossil"
+  description: "A piece of a prehistoric Pok\303\251-mon\'s back."
+  grouping: POCKET_KEY_ITEMS
+  image: "cover_fossil"
+  palette: "cover_fossil"
+}
+item {
+  id: ITEM_PLUME_FOSSIL
+  name: "Plume Fossil"
+  description: "A piece of a prehistoric Pok\303\251-mon\'s wing."
+  grouping: POCKET_KEY_ITEMS
+  image: "plume_fossil"
+  palette: "plume_fossil"
+}
+item {
+  id: ITEM_JAW_FOSSIL
+  name: "Jaw Fossil"
+  description: "A piece of a prehis-toric Pok\303\251mon\'s large jaw."
+  grouping: POCKET_KEY_ITEMS
+  image: "jaw_fossil"
+  palette: "jaw_fossil"
+}
+item {
+  id: ITEM_SAIL_FOSSIL
+  name: "Sail Fossil"
+  description: "A piece of a prehis-toric Pok\303\251mon\'s skin sail."
+  grouping: POCKET_KEY_ITEMS
+  image: "sail_fossil"
+  palette: "sail_fossil"
+}
+item {
+  id: ITEM_ROOT_FOSSIL
+  name: "Root Fossil"
+  description: "A fossil of an ancient, seafloor-dwelling Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "root_fossil"
+  palette: "hoenn_fossil"
+}
+item {
+  id: ITEM_CLAW_FOSSIL
+  name: "Claw Fossil"
+  description: "A fossil of an ancient, seafloor-dwelling Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "claw_fossil"
+  palette: "hoenn_fossil"
+}
+item {
+  id: ITEM_FOSSILIZED_BIRD
+  name: "Fossilized Bird"
+  description: "The fossil of an ancient, bird-like Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "fossilized_bird"
+  palette: "fossilized_bird"
+}
+item {
+  id: ITEM_FOSSILIZED_FISH
+  name: "Fossilized Fish"
+  description: "The fossil of an ancient, fish-like Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "fossilized_fish"
+  palette: "fossilized_fish"
+}
+item {
+  id: ITEM_FOSSILIZED_DRAKE
+  name: "Fossilized Drake"
+  description: "The fossil of an ancient, drake-like Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "fossilized_drake"
+  palette: "fossilized_drake"
+}
+item {
+  id: ITEM_FOSSILIZED_DINO
+  name: "Fossilized Dino"
+  description: "The fossil of an ancient, dino-like Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "fossilized_dino"
+  palette: "fossilized_dino"
+}
+item {
+  id: ITEM_OLD_AMBER
+  name: "Old Amber"
+  description: "A stone containing the genes of an ancient Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "old_amber"
+  palette: "old_amber"
+}
+item {
+  id: ITEM_POKE_VIAL
+  name: "Pok\303\251 Vial"
+  description: "Potent medicine that fully restores all Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_FIELD
+  image: "poke_vial"
+  palette: "poke_vial"
+  field_use_func: "PokeVial"
+}
+item {
+  id: ITEM_COIN_CASE
+  name: "Coin Case"
+  description: "A case that holds up to 9,999 Coins."
+  grouping: POCKET_KEY_ITEMS
+  image: "coin_case"
+  palette: "coin_case"
+  field_use_func: "CoinCase"
+}
+item {
+  id: ITEM_SS_TICKET
+  name: "S.S. Ticket"
+  description: "The ticket required for sailing on a ferry."
+  grouping: POCKET_KEY_ITEMS
+  image: "ss_ticket"
+  palette: "ss_ticket"
+}
+item {
+  id: ITEM_ITEMFINDER
+  name: "Dowsing MCHN"
+  description: "A device that signals an invisible item by sound."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_FIELD
+  image: "itemfinder"
+  palette: "itemfinder"
+  field_use_func: "Itemfinder"
+}
+item {
+  id: ITEM_CONTEST_PASS
+  name: "Contest Pass"
+  description: "The pass required for entering Pok\303\251mon Contests."
+  grouping: POCKET_KEY_ITEMS
+  image: "contest_pass"
+  palette: "contest_pass"
+}
+item {
+  id: ITEM_WAILMER_PAIL
+  name: "Wailmer Pail"
+  description: "A tool used for watering Berries and plants."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_FIELD
+  image: "wailmer_pail"
+  palette: "wailmer_pail"
+  field_use_func: "WailmerPail"
+}
+item {
+  id: ITEM_DEVON_GOODS
+  name: "Devon Parts"
+  description: "A package that contains Devon\'s machine parts."
+  grouping: POCKET_KEY_ITEMS
+  image: "devon_goods"
+  palette: "devon_goods"
+}
+item {
+  id: ITEM_SOOT_SACK
+  name: "Soot Sack"
+  description: "A sack used to gather and hold volcanic ash."
+  grouping: POCKET_KEY_ITEMS
+  image: "soot_sack"
+  palette: "soot_sack"
+}
+item {
+  id: ITEM_BASEMENT_KEY
+  name: "Basement Key"
+  description: "The key for New Mauville beneath Mauville City."
+  grouping: POCKET_KEY_ITEMS
+  image: "basement_key"
+  palette: "old_key"
+}
+item {
+  id: ITEM_EGG_INCUBATOR
+  name: "Egg Incubator"
+  description: "Is that a Pok\303\251mon egg on the floor? Better pick it up!"
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_FIELD
+  image: "pokeblock_case"
+  palette: "pokeblock_case"
+  field_use_func: "EggIncubator"
+}
+item {
+  id: ITEM_LETTER
+  name: "Letter"
+  description: "A letter to Steven from the President of the Devon Corp."
+  grouping: POCKET_KEY_ITEMS
+  image: "letter"
+  palette: "lava_cookie_and_letter"
+}
+item {
+  id: ITEM_EON_TICKET
+  name: "Eon Ticket"
+  description: "The ticket for a ferry to a distant southern island."
+  grouping: POCKET_KEY_ITEMS
+  hold_effect_strength: 1
+  image: "eon_ticket"
+  palette: "eon_ticket"
+}
+item {
+  id: ITEM_SCANNER
+  name: "Scanner"
+  description: "A device found inside the Abandoned Ship."
+  grouping: POCKET_KEY_ITEMS
+  image: "scanner"
+  palette: "scanner"
+}
+item {
+  id: ITEM_GO_GOGGLES
+  name: "Go-Goggles"
+  description: "Nifty goggles that protect eyes from desert sandstorms."
+  grouping: POCKET_KEY_ITEMS
+  image: "go_goggles"
+  palette: "go_goggles"
+}
+item {
+  id: ITEM_METEORITE
+  name: "Meteorite"
+  description: "A meteorite found at Meteor Falls."
+  grouping: POCKET_KEY_ITEMS
+  image: "meteorite"
+  palette: "meteorite"
+}
+item {
+  id: ITEM_ROOM_1_KEY
+  name: "Key to Room 1"
+  description: "A key that opens a door inside the Abandoned Ship."
+  grouping: POCKET_KEY_ITEMS
+  image: "room1_key"
+  palette: "key"
+}
+item {
+  id: ITEM_ROOM_2_KEY
+  name: "Key to Room 2"
+  description: "A key that opens a door inside the Abandoned Ship."
+  grouping: POCKET_KEY_ITEMS
+  image: "room2_key"
+  palette: "key"
+}
+item {
+  id: ITEM_ROOM_4_KEY
+  name: "Key to Room 4"
+  description: "A key that opens a door inside the Abandoned Ship."
+  grouping: POCKET_KEY_ITEMS
+  image: "room4_key"
+  palette: "key"
+}
+item {
+  id: ITEM_ROOM_6_KEY
+  name: "Key to Room 6"
+  description: "A key that opens a door inside the Abandoned Ship."
+  grouping: POCKET_KEY_ITEMS
+  image: "room6_key"
+  palette: "key"
+}
+item {
+  id: ITEM_STORAGE_KEY
+  name: "Storage Key"
+  description: "The key to the storage inside the Abandoned Ship."
+  grouping: POCKET_KEY_ITEMS
+  image: "storage_key"
+  palette: "old_key"
+}
+item {
+  id: ITEM_DEVON_SCOPE
+  name: "Devon Scope"
+  description: "A device by Devon that signals any unseeable Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "devon_scope"
+  palette: "devon_scope"
+}
+item {
+  id: ITEM_MAGMA_STONE
+  name: "Magma Stone"
+  description: "A magma-filled stone formed from melted boulders."
+  grouping: POCKET_KEY_ITEMS
+  image: "magma_stone"
+  palette: "magma_stone"
+}
+item {
+  id: ITEM_LUNAR_WING
+  name: "Lunar Wing"
+  description: "A feather that glows like the moon."
+  grouping: POCKET_KEY_ITEMS
+  image: "lunar_wing"
+  palette: "lunar_wing"
+}
+item {
+  id: ITEM_OAKS_PARCEL
+  name: "Parcel"
+  description: "A parcel for Prof. Oak from a Pok\303\251mon Mart\'s clerk."
+  grouping: POCKET_KEY_ITEMS
+  image: "oaks_parcel"
+  palette: "oaks_parcel"
+}
+item {
+  id: ITEM_POKE_FLUTE
+  name: "Pok\303\251 Flute"
+  description: "A sweet-sounding flute that awakens Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "poke_flute"
+  palette: "poke_flute"
+}
+item {
+  id: ITEM_SECRET_KEY
+  name: "Secret Key"
+  description: "The key to the Cinnabar Island Gym\'s entrance."
+  grouping: POCKET_KEY_ITEMS
+  image: "secret_key"
+  palette: "secret_key"
+}
+item {
+  id: ITEM_BIKE_VOUCHER
+  name: "Bike Voucher"
+  description: "A voucher for obtaining a bicycle from the Bike Shop."
+  grouping: POCKET_KEY_ITEMS
+  image: "bike_voucher"
+  palette: "bike_voucher"
+}
+item {
+  id: ITEM_GOLD_TEETH
+  name: "Gold Teeth"
+  description: "Gold dentures lost by the Safari Zone\'s Warden."
+  grouping: POCKET_KEY_ITEMS
+  image: "gold_teeth"
+  palette: "gold_teeth"
+}
+item {
+  id: ITEM_CARD_KEY
+  name: "Card Key"
+  description: "A card-type door key used in Silph Co\'s office."
+  grouping: POCKET_KEY_ITEMS
+  image: "card_key"
+  palette: "card_key"
+}
+item {
+  id: ITEM_LIFT_KEY
+  name: "Lift Key"
+  description: "An elevator key used in Team Rocket\'s Hideout."
+  grouping: POCKET_KEY_ITEMS
+  image: "lift_key"
+  palette: "key"
+}
+item {
+  id: ITEM_SILPH_SCOPE
+  name: "Silph Scope"
+  description: "Silph Co\'s scope makes unseeable Pok\303\251mon visible."
+  grouping: POCKET_KEY_ITEMS
+  image: "silph_scope"
+  palette: "silph_scope"
+}
+item {
+  id: ITEM_BICYCLE
+  name: "Bicycle"
+  description: "A folding bicycle that is faster than the Running Shoes."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_FIELD
+  image: "bicycle"
+  palette: "bicycle"
+}
+item {
+  id: ITEM_TOWN_MAP
+  name: "Town Map"
+  description: "Can be viewed anytime. Shows your present location."
+  grouping: POCKET_KEY_ITEMS
+  image: "town_map"
+  palette: "town_map"
+}
+item {
+  id: ITEM_VS_SEEKER
+  name: "Vs. Seeker"
+  description: "A rechargeable unit that flags battle-ready Trainers."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_FIELD
+  image: "vs_seeker"
+  palette: "vs_seeker"
+}
+item {
+  id: ITEM_FAME_CHECKER
+  name: "Fame Checker"
+  description: "Stores information on famous people for instant recall."
+  grouping: POCKET_KEY_ITEMS
+  image: "fame_checker"
+  palette: "fame_checker"
+}
+item {
+  id: ITEM_TM_CASE
+  name: "TM Case"
+  description: "A convenient case  that holds TMs and HMs."
+  grouping: POCKET_KEY_ITEMS
+  image: "tm_case"
+  palette: "tm_case"
+}
+item {
+  id: ITEM_BERRY_POUCH
+  name: "Berry Pouch"
+  description: "A convenient container that holds Berries."
+  grouping: POCKET_KEY_ITEMS
+  image: "berry_pouch"
+  palette: "berry_pouch"
+}
+item {
+  id: ITEM_TEACHY_TV
+  name: "Teachy TV"
+  description: "A TV set tuned to an advice program for Trainers."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_FIELD
+  image: "teachy_tv"
+  palette: "teachy_tv"
+}
+item {
+  id: ITEM_TRI_PASS
+  name: "Tri-Pass"
+  description: "A pass for ferries between One, Two, and Three Island."
+  grouping: POCKET_KEY_ITEMS
+  image: "tri_pass"
+  palette: "tri_pass"
+}
+item {
+  id: ITEM_RAINBOW_PASS
+  name: "Rainbow Pass"
+  description: "For ferries serving Vermilion and the Sevii Islands."
+  grouping: POCKET_KEY_ITEMS
+  image: "rainbow_pass"
+  palette: "rainbow_pass"
+}
+item {
+  id: ITEM_TEA
+  name: "Tea"
+  description: "A thirst-quenching tea prepared by an old lady."
+  grouping: POCKET_KEY_ITEMS
+  image: "tea"
+  palette: "tea"
+}
+item {
+  id: ITEM_MYSTIC_TICKET
+  name: "Mystic Ticket"
+  description: "A ticket required to board the ship to Navel Rock."
+  grouping: POCKET_KEY_ITEMS
+  image: "mystic_ticket"
+  palette: "mystic_ticket"
+}
+item {
+  id: ITEM_AURORA_TICKET
+  name: "Aurora Ticket"
+  description: "A ticket required to board the ship to Birth Island."
+  grouping: POCKET_KEY_ITEMS
+  image: "aurora_ticket"
+  palette: "aurora_ticket"
+}
+item {
+  id: ITEM_POWDER_JAR
+  name: "Powder Jar"
+  description: "Stores Berry Powder made using a Berry Crusher."
+  grouping: POCKET_KEY_ITEMS
+  image: "powder_jar"
+  palette: "powder_jar"
+  field_use_func: "PowderJar"
+}
+item {
+  id: ITEM_RUBY
+  name: "Ruby"
+  description: "An exquisite, red-glowing gem that symbolizes passion."
+  grouping: POCKET_KEY_ITEMS
+  image: "gem"
+  palette: "ruby"
+}
+item {
+  id: ITEM_SAPPHIRE
+  name: "Sapphire"
+  description: "A brilliant blue gem that symbolizes honesty."
+  grouping: POCKET_KEY_ITEMS
+  image: "gem"
+  palette: "sapphire"
+}
+item {
+  id: ITEM_MAGMA_EMBLEM
+  name: "Magma Emblem"
+  description: "A medal-like item in the same shape as Team Magma\'s mark."
+  grouping: POCKET_KEY_ITEMS
+  image: "magma_emblem"
+  palette: "magma_emblem"
+}
+item {
+  id: ITEM_OLD_SEA_MAP
+  name: "Old Sea Map"
+  description: "A faded sea chart that shows the way to a certain island."
+  grouping: POCKET_KEY_ITEMS
+  image: "old_sea_map"
+  palette: "old_sea_map"
+}
+item {
+  id: ITEM_ODD_KEYSTONE
+  name: "Odd Keystone"
+  description: "Voices can be heard from this odd stone occasionally."
+  grouping: POCKET_KEY_ITEMS
+  image: "odd_keystone"
+  palette: "odd_keystone"
+}
+item {
+  id: ITEM_MEGA_BRACELET
+  name: "Mega Bracelet"
+  description: "Enables {PKMN} holding their Mega Stone to Mega Evolve."
+  grouping: POCKET_KEY_ITEMS
+  image: "mega_bracelet"
+  palette: "mega_bracelet"
+}
+item {
+  id: ITEM_SHINY_CHARM
+  name: "Shiny Charm"
+  description: "A charm that will raise the chance of Shiny Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  image: "shiny_charm"
+  palette: "shiny_charm"
+}
+item {
+  id: ITEM_OVAL_CHARM
+  name: "Oval Charm"
+  description: "Raises the chance of finding eggs at the daycare."
+  grouping: POCKET_KEY_ITEMS
+  image: "oval_charm"
+  palette: "oval_charm"
+}
+item {
+  id: ITEM_Z_RING
+  name: "Z-Ring"
+  description: "A strange ring that enables Z-Move usage."
+  grouping: POCKET_KEY_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  image: "z_ring"
+  palette: "z_ring"
+}
+item {
+  id: ITEM_CATCHING_CHARM
+  name: "Catching Charm"
+  description: "Increases the odds of getting a critical catch."
+  grouping: POCKET_KEY_ITEMS
+  image: "catching_charm"
+  palette: "catching_charm"
+}
+item {
+  id: ITEM_EXP_CHARM
+  name: "Exp. Charm"
+  description: "An odd charm that boosts all Exp. gain by 50%."
+  grouping: POCKET_KEY_ITEMS
+  image: "exp_charm"
+  palette: "exp_charm"
+}
+item {
+  id: ITEM_ICEROOT_CARROT
+  name: "Iceroot Carrot"
+  description: "A strange carrot that grew in a snowy field."
+  grouping: POCKET_KEY_ITEMS
+  image: "iceroot_carrot"
+  palette: "iceroot_carrot"
+}
+item {
+  id: ITEM_SHADEROOT_CARROT
+  name: "Shaderoot Carrot"
+  description: "A strange carrot that grew in a gloomy field."
+  grouping: POCKET_KEY_ITEMS
+  image: "shaderoot_carrot"
+  palette: "shaderoot_carrot"
+}
+item {
+  id: ITEM_REINS_OF_UNITY
+  name: "Reins of Unity"
+  description: "Reins that unite Calyrex with its beloved steed."
+  grouping: POCKET_KEY_ITEMS
+  image: "reins_of_unity"
+  palette: "reins_of_unity"
+}
+item {
+  id: ITEM_WOODEN_CROWN
+  name: "Wooden Crown"
+  description: "A mysterious wooden object."
+  grouping: POCKET_KEY_ITEMS
+  image: "wooden_crown"
+  palette: "wooden_crown"
+}
+item {
+  id: ITEM_ROTOM_CATALOG
+  name: "Rotom Catalog"
+  description: "A list of devices used to change Rotom\'s form."
+  grouping: POCKET_KEY_ITEMS
+  image: "rotom_catalog"
+  palette: "rotom_catalog"
+}
+item {
+  id: ITEM_CANDY_BOX
+  name: "Candy Box"
+  description: "Raises the level of a Pok\303\251mon by one."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "oaks_parcel"
+  palette: "oaks_parcel"
+  field_use_func: "CandyBox"
+  talk_to_nurse_joy: true
+}
+item {
+  id: ITEM_REVEAL_GLASS
+  name: "Reveal Glass"
+  description: "This glass returns a Pok\303\251mon back to its original form."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "reveal_glass"
+  palette: "reveal_glass"
+  field_use_func: "RevealGlass"
+}
+item {
+  id: ITEM_DNA_SPLICERS
+  name: "DNA Splicers"
+  description: "Splicer that fuses Kyurem and a certain Pok\303\251mon."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "dna_splicers"
+  palette: "dna_splicers"
+  field_use_func: "DNASplicers"
+}
+item {
+  id: ITEM_GRACIDEA
+  name: "Gracidea"
+  description: "Bouquets made with it are offered as a token of gratitude."
+  grouping: POCKET_KEY_ITEMS
+  hold_effect: HOLD_EFFECT_CUSTOM
+  use_type: ITEM_USE_PARTY_MENU
+  image: "gracidea"
+  palette: "gracidea"
+  field_use_func: "Gracidea"
+}
+item {
+  id: ITEM_PRISON_BOTTLE
+  name: "Prison Bottle"
+  description: "A bottle used to seal a certain Pok\303\251mon long ago."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "prison_bottle"
+  palette: "prison_bottle"
+  field_use_func: "PrisonBottle"
+}
+item {
+  id: ITEM_N_LUNARIZER
+  name: "N-Lunarizer"
+  description: "A device to fuse and split Necrozma using a Lunala."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "n_lunarizer"
+  palette: "n_lunarizer"
+  field_use_func: "NLunarizer"
+}
+item {
+  id: ITEM_N_SOLARIZER
+  name: "N-Solarizer"
+  description: "A device to fuse and split Necrozma using a Solgaleo."
+  grouping: POCKET_KEY_ITEMS
+  use_type: ITEM_USE_PARTY_MENU
+  image: "n_solarizer"
+  palette: "n_solarizer"
+  field_use_func: "NSolarizer"
+}
